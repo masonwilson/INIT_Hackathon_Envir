@@ -51,7 +51,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -76,7 +76,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -224,7 +224,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
@@ -3959,6 +3959,8 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-bottom: 3px solid #fff;
+  border-top: 5px solid #17202a;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4278,7 +4280,10 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
+  border-color: #cc5500;
   border-radius: 0.5rem;
+  margin-bottom: 10px;
+  color: #navy;
 }
 .card > hr {
   margin-right: 0;
@@ -4310,6 +4315,7 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: 0.5rem;
+  color: #navy;
 }
 
 .card-subtitle {
@@ -4323,6 +4329,7 @@ textarea.form-control-lg {
 
 .card-link:hover {
   text-decoration: none;
+  color: #navy;
 }
 .card-link + .card-link {
   margin-left: 1rem;
@@ -4333,6 +4340,8 @@ textarea.form-control-lg {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
+  border-bottom-color: #cc5500;
+  color: #navy;
 }
 .card-header:first-child {
   border-radius: 0.375rem 0.375rem 0 0;
@@ -5526,7 +5535,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5628,7 +5637,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7228,7 +7237,7 @@ textarea.form-control-lg {
 }
 
 .font-monospace {
-  font-family: var(--bs-font-monospace) !important;
+  font-family: 'Bona Nova', serif !important;
 }
 
 .fs-1 {
@@ -10858,6 +10867,7 @@ html {
 
 .page-section {
   padding: 6rem 0;
+  color: #2c3e50;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10920,7 +10930,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -10933,13 +10943,14 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #2c3e50;
+  color: #fff;
+  background-color: #283849;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #cc5500;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #2c3e50;
+  color: #cc5500;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10997,6 +11008,7 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image: url('assets/img/orange-background.jpg');
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
