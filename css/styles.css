@@ -2960,7 +2960,7 @@ textarea.form-control-lg {
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
-  opacity: 0.65;
+  opacity: 1;
 }
 
 .btn-primary {
@@ -3419,6 +3419,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.75rem;
+  background-color: #add8e6;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -3770,6 +3771,8 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn {
   position: relative;
   flex: 1 1 auto;
+  background-color: #add8e6;
+
 }
 .btn-group > .btn-check:checked + .btn,
 .btn-group > .btn-check:focus + .btn,
